@@ -125,8 +125,8 @@ curl -k --resolve jcrochet.42.fr:443:127.0.0.1 https://jcrochet.42.fr
 3. **Update WordPress URL for Port 8443 (If CSS breaks):**
    Inside the VM terminal, run:
    ```text
-docker exec -it wordpress wp option update siteurl '[https://jcrochet.42.fr:8443](https://jcrochet.42.fr:8443)' --path=/var/www/wordpress --allow-root
-docker exec -it wordpress wp option update home '[https://jcrochet.42.fr:8443](https://jcrochet.42.fr:8443)' --path=/var/www/wordpress --allow-root
+  docker exec -it wordpress wp option update siteurl '[https://jcrochet.42.fr:8443](https://jcrochet.42.fr:8443)' --path=/var/www/wordpress --allow-root
+  docker exec -it wordpress wp option update home '[https://jcrochet.42.fr:8443](https://jcrochet.42.fr:8443)' --path=/var/www/wordpress --allow-root
    ```
 
 4. **Navigate to the Site**:
